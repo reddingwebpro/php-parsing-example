@@ -1,6 +1,6 @@
 <?php
-$start=microtime();
-$name="foo";
-$time=time();
+$start = microtime(true);
+$name = "foo";
+$time = time();
 include('template.php');
 
